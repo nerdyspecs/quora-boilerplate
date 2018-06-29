@@ -1,3 +1,10 @@
 <h1>Quora Clone</h1>
 <h2><%= "Welcome #{@name}!" %></h2><br/>
-<%= "#{@date}" %>
+<%= "#{@date}" %> <br/>
+
+<% if @success %>
+<h1><%= "#{@success}" %></h1>
+<% end %> <br/>
+
+<a href="sign_up">Click here to sign up</a> <br/>
+<a href="sign_in">Click here to log in</a>
